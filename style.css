@@ -1,3 +1,6 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
 
 .container-1 {
 	display:  flex;
@@ -5,7 +8,6 @@
 	justify-content: center;
 	width: 100%;
 	background: #1F2937;
-	border: 1px solid blue;
 }
 
 .header {
@@ -14,71 +16,77 @@
 	width: 80%;
 	justify-content: space-between;
 	align-items: center;
-	border:  1px solid red;
 }
 
 h1 {
-	border:  1px solid red;
+	font-size: 48px;
+	font-weight: 700;
 	color: #F9FAF8;
 }
 
+h2 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #F9FAF8;
+} 
+
 h3 {
+	font-size: 18px;
+	font-weight: 100;
 	color: #E5E7EB;
 }
 
 .header-links {
-	display:  flex;
+	display: flex;
 	width: 50%;
 	justify-content: space-between;
-	border:  1px solid red;
 }
 
 .hero {
-	display:  flex;
+	display: flex;
 	justify-content: space-between;
-	width:  80%;
-	margin:  auto;
-	border:  1px solid red;
+	width: 80%;
+	margin: auto;
 }
 
 .hero-text {
-	display:  flex;
+	display: flex;
 	flex-direction: column;
-	border: 1px solid darkgray;
 }
 
 img {
-	width:  auto;
+	width: auto;
 	height: 400px;
 }
 
 .container-2 {
 	display: flex;
 	flex-direction: column;
-	border: 1px solid blue;
 	justify-content: center;
-	padding: 50px 0px;
 	width: 100%;
 	height: 300px;
+	padding: 50px 0px;
 }
 
 .info {
-	text-align: center;
+	text-align: center;	
+	font-size: 32px;
+	font-weight: 700;
 	margin: auto;
-	padding: 10px 0px;
 }
 
 .box {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	padding: 30px;
 }
 
 .info-boxes {
 	display: flex;
 	justify-content: center;
-	margin: 10px;
-	gap: 10px;
-	padding: 10px 0px;
 }
 
 figure {
@@ -92,21 +100,37 @@ figcaption {
 	text-align: center;
 }
 
-button, button-2 {
+button {
+	height: 40px;
+	width: 120px;
+	font-size: 18px;
 	background: #3882F6;
+	color: white;
+	border: none;
+	border-radius: 8px;
 }
 
-button-2 {
-	border: 2px white;
+.button-2 {
+	height: 40px;
+	width: 120px;
+	background: #3882F6;
+	border:  2px solid white;
+	border-radius: 8px;
 }
 
 .container-3 {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	width: 100%;
 	height: 300px;
 	background: #E5E7EB;
-	border: 1px solid blue;
+}
+
+.quote {
+	width: 50%;
+	font-size: 48px;
+	font-style: italic;
 }
 
 .container-4 {
@@ -115,16 +139,21 @@ button-2 {
 	align-items: center;
 	width: 100%;
 	height: 300px;
-	border: 1px solid blue;
 }
 
 .action {
-	height: 100px;
+	display: flex;
+	height: 150px;
 	width: 80%;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	background: #3882F6;
-	border: 1px solid red;
+	border-radius: 8px;
+}
+
+.action-header {
+	font-size: 24px;
+	color: white;
 }
 
 footer {
